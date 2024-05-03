@@ -117,4 +117,9 @@ public class JobRepo {
     public List<JobPost> returnAllJobPosts() {
         return jobs;
     }
+
+    public void addJobPost(JobPost job) {
+        jobs.add(job);
+
+    }
 }

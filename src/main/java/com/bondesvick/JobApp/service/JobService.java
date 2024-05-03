@@ -18,4 +18,9 @@ public class JobService {
 
 
     }
+
+    public void addJobPost(JobPost jobPost) {
+        repo.addJobPost(jobPost);
+
+    }
 }
